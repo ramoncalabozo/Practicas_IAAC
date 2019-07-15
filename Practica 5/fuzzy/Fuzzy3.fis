@@ -15,25 +15,25 @@ DefuzzMethod='centroid'
 Name='error'
 Range=[0 1]
 NumMFs=3
-MF1='negativo':'trapmf',[-0.375 -0.04167 0.04167 0.375]
-MF2='intermedio':'trapmf',[0.125 0.4583 0.5417 0.875]
-MF3='positivo':'trapmf',[0.625 0.9583 1.042 1.375]
+MF1='negativo':'trapmf',[-0.269291754756871 0.0640382452431289 0.147378245243129 0.480708245243129]
+MF2='intermedio':'trapmf',[0.007399577167019 0.458 0.542 0.984]
+MF3='positivo':'trapmf',[0.487315010570824 0.958 1.04 1.38]
 
 [Input2]
 Name='cambio-error'
 Range=[0 1]
 NumMFs=3
-MF1='negativo':'trapmf',[-0.375 -0.04167 0.04167 0.375]
+MF1='negativo':'trapmf',[-0.375 -0.0417 0.0417 0.483086680761099]
 MF2='intermedio':'trapmf',[0.125 0.4583 0.5417 0.875]
-MF3='positivo':'trapmf',[0.625 0.9583 1.042 1.375]
+MF3='positivo':'trapmf',[0.502114164904863 0.958 1.04 1.38]
 
 [Input3]
 Name='integra'
 Range=[0 1]
 NumMFs=3
-MF1='negativo':'trapmf',[-0.375 -0.04167 0.04167 0.375]
+MF1='negativo':'trapmf',[-0.375 -0.0417 0.0417 0.5]
 MF2='intermedio':'trapmf',[0.125 0.4583 0.5417 0.875]
-MF3='positivo':'trapmf',[0.625 0.9583 1.042 1.375]
+MF3='positivo':'trapmf',[0.504228329809725 0.958 1.04 1.38]
 
 [Output1]
 Name='control'

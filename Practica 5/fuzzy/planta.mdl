@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.31"
+    ComputedModelVersion    "1.32"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -110,9 +110,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "ramon"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed May 15 20:55:43 2019"
-  RTWModifiedTimeStamp	  479854501
-  ModelVersionFormat	  "1.%<AutoIncrement:31>"
+  LastModifiedDate	  "Fri May 17 12:57:02 2019"
+  RTWModifiedTimeStamp	  479998335
+  ModelVersionFormat	  "1.%<AutoIncrement:32>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -1118,7 +1118,6 @@ Model {
       SID		      "32"
       Position		      [145, 100, 175, 130]
       ZOrder		      665
-      Gain		      "7"
       ParamDataTypeStr	      "Inherit: Inherit via internal rule"
       OutDataTypeStr	      "Inherit: Inherit via internal rule"
       SaturateOnIntegerOverflow	off
@@ -1129,7 +1128,6 @@ Model {
       SID		      "33"
       Position		      [140, 230, 170, 260]
       ZOrder		      666
-      Gain		      "7"
       ParamDataTypeStr	      "Inherit: Inherit via internal rule"
       OutDataTypeStr	      "Inherit: Inherit via internal rule"
       SaturateOnIntegerOverflow	off
@@ -1140,7 +1138,6 @@ Model {
       SID		      "34"
       Position		      [145, 165, 175, 195]
       ZOrder		      667
-      Gain		      "7"
       ParamDataTypeStr	      "Inherit: Inherit via internal rule"
       OutDataTypeStr	      "Inherit: Inherit via internal rule"
       SaturateOnIntegerOverflow	off
@@ -1151,7 +1148,7 @@ Model {
       SID		      "36"
       Position		      [525, 170, 555, 200]
       ZOrder		      669
-      Gain		      "3"
+      Gain		      "1.095"
       ParamDataTypeStr	      "Inherit: Inherit via internal rule"
       OutDataTypeStr	      "Inherit: Inherit via internal rule"
       SaturateOnIntegerOverflow	off
@@ -1179,27 +1176,27 @@ Model {
       BlockType		      Scope
       Name		      "Scope"
       SID		      "15"
-      Ports		      [1]
-      Position		      [725, 204, 755, 236]
+      Ports		      [2]
+      Position		      [725, 206, 755, 239]
       ZOrder		      648
       ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
       "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
       "ources','WiredSimulink',true),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('Mi"
-      "nYLimReal','-2.43506','MaxYLimReal','21.91558','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','21.91558','L"
-      "egendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686"
-      "274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.6235"
-      "29411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.7176"
-      "47058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<Signal"
-      "Label>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'s1'}},'ShowContent"
-      "',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','-2.43506','MaxYLimReal','21.91558','YLabe"
-      "lReal','','MinYLimMag','0.00000','MaxYLimMag','21.91558','LegendVisibility','off','XGrid',true,'YGrid',true,'Plo"
-      "tMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'Co"
-      "lorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0."
-      "717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 "
-      "1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'PreviousAutosca"
-      "le','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2018b')),'Version','2018b','Position',[1 4"
-      "1 1536 748.8])"
-      NumInputPorts	      "1"
+      "nYLimReal','-0.14841','MaxYLimReal','1.33565','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.33565','Leg"
+      "endVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.68627"
+      "4509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529"
+      "411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647"
+      "058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLa"
+      "bel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',2,'LineNames',{{'s1','Step'}},'ShowCo"
+      "ntent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','-0.14841','MaxYLimReal','1.33565','Y"
+      "LabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.33565','LegendVisibility','off','XGrid',true,'YGrid',true,'"
+      "PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],"
+      "'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667"
+      ";0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647"
+      " 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'PreviousAuto"
+      "scale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2018b')),'Version','2018b','Position',["
+      "1 41 1536 748.8],'VisibleAtModelOpen','on')"
+      NumInputPorts	      "2"
       Floating		      off
     }
     Block {
@@ -1260,14 +1257,14 @@ Model {
 	    Type		    "edit"
 	    Name		    "P2"
 	    Prompt		    "Segundo digito del Puesto"
-	    Value		    "9"
+	    Value		    "5"
 	  }
 	  Object {
 	    $ObjectID		    25
 	    Type		    "edit"
 	    Name		    "T"
 	    Prompt		    "Tipo de Planta"
-	    Value		    "1"
+	    Value		    "2"
 	  }
 	  Object {
 	    $ObjectID		    26
@@ -1284,8 +1281,18 @@ Model {
       ZOrder		      4
       SrcBlock		      "Step"
       SrcPort		      1
-      DstBlock		      "Sum"
-      DstPort		      1
+      Points		      [25, 0]
+      Branch {
+	ZOrder			132
+	Points			[0, 43; 263, 0; 0, 17]
+	DstBlock		"Scope"
+	DstPort			2
+      }
+      Branch {
+	ZOrder			131
+	DstBlock		"Sum"
+	DstPort			1
+      }
     }
     Line {
       ZOrder		      111
@@ -1373,10 +1380,10 @@ Model {
       ZOrder		      126
       SrcBlock		      "s1"
       SrcPort		      1
-      Points		      [17, 0; 0, 35]
+      Points		      [17, 0; 0, 30]
       Branch {
-	ZOrder			128
-	Points			[0, 54; -612, 0]
+	ZOrder			130
+	Points			[0, 59; -612, 0]
 	DstBlock		"Sum"
 	DstPort			2
       }
